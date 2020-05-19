@@ -11,6 +11,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+        Spacer()
         Text("Hello, World!")
         Text("Raja")
         Spacer()
