@@ -9,10 +9,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    var Profiles: [Profile] = testData
     var body: some View {
         NavigationView {
-        List(0 ..< 10) { item in
-                    Image("rajasekhar")
+        List(Profiles) { item in
+                    Image(item.imageName)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .clipShape(Circle())
@@ -20,8 +21,8 @@ struct ContentView: View {
                     .stroke(Color.orange, lineWidth: 4))
                     .shadow(radius: 10)
         VStack (alignment: .leading){
-                     Text("Rajasekhar")
-                     Text("iOS developer")
+            Text(item.name)
+            Text(item.headline)
                       .font(.subheadline)
                       .foregroundColor(.blue)
                    }
