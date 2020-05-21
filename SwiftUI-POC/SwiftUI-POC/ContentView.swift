@@ -10,12 +10,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-        Spacer()
-        Text("Hello, World!")
-        Text("Raja")
-        Spacer()
-        }
+        NavigationView {
+        List(0 ..< 10) { item in
+                    Image("rajasekhar")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .clipShape(Circle())
+                    .overlay(Circle()
+                    .stroke(Color.orange, lineWidth: 4))
+                    .shadow(radius: 10)
+        VStack (alignment: .leading){
+                     Text("Rajasekhar")
+                     Text("iOS developer")
+                      .font(.subheadline)
+                      .foregroundColor(.blue)
+                   }
+               }
+        .navigationBarTitle(Text("Rajasekhar"))
+    }
     }
 }
 
