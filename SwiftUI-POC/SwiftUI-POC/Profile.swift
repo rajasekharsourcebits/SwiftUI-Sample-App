@@ -19,7 +19,7 @@ struct Profile: Identifiable {
 
 #if DEBUG
 let testData = [
-    Profile(name: "rajasekhar", headline: "iOS developer at SourceBits", bio: "rajasekhar is an app developer. He lives in Bangalore, Proficient in iOS and Android, it's his dream to develop an AI product.", image:"rajasekhar"),
+    Profile(name: "Rajasekhar", headline: "iOS developer at SourceBits", bio: "rajasekhar is an app developer. He lives in Bangalore, Proficient in iOS and Android, it's his dream to develop an AI product.", image:"rajasekhar"),
     Profile(name: "Vedha", headline: "Lead at SourceBits", bio: "Lead at SourceBits. Author of multiple iOS prgramming books including Beginning iOS 12 Programming with Swift and Intermediate iOS 12 Programming with Swift. iOS Developer and Blogger.", image:"image1"),
     Profile(name: "Ramakrishna", headline: "Advanced Software Developer", bio: "Gabriel has been a software developer for about two decades. He has long experience in developing software solutions for various platforms in many programming languages.", image:"image2"),
     Profile(name: "Sanjeeva Rao", headline: "Author and Software Developer", bio: "Avid and well-published author and software developer now specializing in iOS mobile app development in Obj-C and Swift. Andrew has published several apps in the Apple App Store and 30 years of experience.", image:"image3"),
