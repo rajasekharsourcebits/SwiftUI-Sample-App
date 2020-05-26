@@ -14,7 +14,7 @@ struct ContentView: View {
         NavigationView {
             List(Profiles) { profile in
                 ProfileCell(profile: profile)
-            }.navigationBarTitle(Text("Rajasekhar"))
+            }.navigationBarTitle(Text("Profiles"))
         }
     }
 }
