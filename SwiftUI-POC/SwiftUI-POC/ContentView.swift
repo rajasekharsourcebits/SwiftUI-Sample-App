@@ -11,11 +11,26 @@ import SwiftUI
 struct ContentView: View {
     var Profiles: [Profile] = testData
     var body: some View {
-        NavigationView {
-            List(Profiles) { profile in
-                ProfileCell(profile: profile)
-            }.navigationBarTitle(Text("Profiles"))
+        
+        TabView {
+            NavigationView {
+               List(Profiles) { profile in
+                   ProfileCell(profile: profile)
+               }.navigationBarTitle(Text("Profiles"))
+           }
+            .tabItem {
+                Image(systemName: "1.circle")
+                Text("Profiles")
+            }.tag(0)
+         // Text("Second View")
+                GrideView()
+             .tabItem {
+              Image(systemName: "2.circle")
+               Text("Second Tab")
+                
+            }
         }
+
     }
 }
 

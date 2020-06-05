@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D75B4CB1248A070000F75991 /* GrideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75B4CB0248A070000F75991 /* GrideView.swift */; };
 		D76BED672473B04B00EEEE44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76BED662473B04B00EEEE44 /* AppDelegate.swift */; };
 		D76BED692473B04B00EEEE44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76BED682473B04B00EEEE44 /* SceneDelegate.swift */; };
 		D76BED6B2473B04B00EEEE44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76BED6A2473B04B00EEEE44 /* ContentView.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D75B4CB0248A070000F75991 /* GrideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrideView.swift; sourceTree = "<group>"; };
 		D76BED632473B04B00EEEE44 /* SwiftUI-POC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-POC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D76BED662473B04B00EEEE44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D76BED682473B04B00EEEE44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				D76BED682473B04B00EEEE44 /* SceneDelegate.swift */,
 				D76BED6A2473B04B00EEEE44 /* ContentView.swift */,
 				D76BED982476A20D00EEEE44 /* ProfileDetail.swift */,
+				D75B4CB0248A070000F75991 /* GrideView.swift */,
 				D76BED962476A12C00EEEE44 /* Profile.swift */,
 				D76BED6C2473B04C00EEEE44 /* Assets.xcassets */,
 				D76BED712473B04C00EEEE44 /* LaunchScreen.storyboard */,
@@ -277,6 +280,7 @@
 				D76BED972476A12C00EEEE44 /* Profile.swift in Sources */,
 				D76BED692473B04B00EEEE44 /* SceneDelegate.swift in Sources */,
 				D76BED6B2473B04B00EEEE44 /* ContentView.swift in Sources */,
+				D75B4CB1248A070000F75991 /* GrideView.swift in Sources */,
 				D76BED992476A20D00EEEE44 /* ProfileDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
